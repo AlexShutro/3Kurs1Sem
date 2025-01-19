@@ -1,0 +1,14 @@
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.AssemblyInfoInputs.cache
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.AssemblyInfo.cs
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.csproj.CoreCompileInputs.cache
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\bin\Debug\net7.0\OSzad10.exe
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\bin\Debug\net7.0\OSzad10.deps.json
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\bin\Debug\net7.0\OSzad10.runtimeconfig.json
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\bin\Debug\net7.0\OSzad10.dll
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\bin\Debug\net7.0\OSzad10.pdb
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.dll
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\refint\OSzad10.dll
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.pdb
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\OSzad10.genruntimeconfig.cache
+D:\3 kurs\1 sem\ос\лабы\lab4\OSzad10\OSzad10\obj\Debug\net7.0\ref\OSzad10.dll
