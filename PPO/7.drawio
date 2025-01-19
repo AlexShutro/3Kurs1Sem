@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram name="Страница — 1" id="QhkoC_8RHLyGk81oO3Rx">
+    <mxGraphModel dx="663" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1384" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="101" y="662" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-6" target="mUcIHhHVrgQEd-NfQmew-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-6" value="Переход на страницу оплаты" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="647" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-9" target="mUcIHhHVrgQEd-NfQmew-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-9" target="mUcIHhHVrgQEd-NfQmew-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="569" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-9" value="Ввод реквизитов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708" y="647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-10" value="Диалог ответа создан" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="569" y="692" width="139" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-13" target="mUcIHhHVrgQEd-NfQmew-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-13" target="mUcIHhHVrgQEd-NfQmew-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-13" value="Подверждение" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-14" value="Транзакция не одобрена" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="828" y="730" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-16" target="mUcIHhHVrgQEd-NfQmew-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-16" value="Оплата товара" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-18" target="mUcIHhHVrgQEd-NfQmew-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="377" y="569" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-18" value="Отмена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="539" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mUcIHhHVrgQEd-NfQmew-20" target="mUcIHhHVrgQEd-NfQmew-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1029" y="476" />
+              <mxPoint x="288" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-20" value="&quot;Недостаточно средств на счету&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="969" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-21" value="Транзакция одобрена" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="569" y="830" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mUcIHhHVrgQEd-NfQmew-22" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="753" y="971" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
