@@ -1,0 +1,4 @@
+﻿  OS09_01.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xutility(4672,18): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+D:\3 kurs\1 sem\ос\лабы\lab9\OS09_01\OS09_01\OS09_01.cpp(105,1): warning C4715: printFileTxt: значение возвращается не при всех путях выполнения
+  OS09_01.vcxproj -> D:\3 kurs\1 sem\ос\лабы\lab9\OS09_01\x64\Debug\OS09_01.exe
