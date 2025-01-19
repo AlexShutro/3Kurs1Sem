@@ -1,0 +1,3 @@
+﻿  OS07_04x.cpp
+D:\3 kurs\1 sem\ос\лабы\lab7\OS07_04x\OS07_04x\OS07_04x.cpp(27,14): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+  OS07_04x.vcxproj -> D:\3 kurs\1 sem\ос\лабы\lab7\OS07_04x\x64\Debug\OS07_04x.exe
