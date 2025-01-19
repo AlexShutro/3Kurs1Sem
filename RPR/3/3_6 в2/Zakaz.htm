@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>Заказ товаров</title>
+  <meta charset="utf-8">
+  <script ype="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // Инициализация EmailJS с вашим Public Key
+    (function() {
+      emailjs.init("tKgvu2ab7E9eoLjH4"); // Замените на ваш Public Key
+    })();
+
+    function calculateAndSendEmail() {
+      // Получаем данные из формы
+      var company = document.f1["fir-ma"].value;
+      var product = document.f1["to-var"].value;
+      var price = parseFloat(document.f1["to-many"].value);
+      var email = document.f1["to-mail"].value;
+
+        console.log(company);
+
+      if (isNaN(price)) {
+        alert("Пожалуйста, введите правильную цену.");
+        return;
+      }
+
+      // Создаем объект с параметрами шаблона
+      var templateParams = {
+        company: company,
+        product: product,
+        total: price,
+        email: email,
+      };
+
+      console.log(templateParams);
+
+      // Отправка письма через EmailJS
+      emailjs.send('service_4555by5', 'template_66p6kw9', templateParams)
+        .then(function(response) {
+          alert("Письмо успешно отправлено!");
+          console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+          alert("Ошибка при отправке письма: " + JSON.stringify(error));
+          console.log('FAILED...', error);
+        });
+    }
+  </script>
+</head>
+
+<body>
+  <form name="f1">
+    <h1 align="left">Заказ товаров</h1>
+    Компания <input type="text" name="fir-ma" size="30" required>
+    заказала <input type="text" name="to-var" size="30" required>
+    по цене <input type="text" name="to-many" size="30" required>
+    почта <input type="email" name="to-mail" size="30" required>
+    <br><br>
+    <input type="button" name="b1" size="30" value="Click" onclick="calculateAndSendEmail()">
+  </form>
+</body>
+</html>

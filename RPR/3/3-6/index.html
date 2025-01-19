@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Заказ товаров</title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function calculateTotal() {
+            // Получаем значения из полей формы
+            var company = document.f1["fir-ma"].value;
+            var product = document.f1["to-var"].value;
+            var quantity = document.f1["quantity"].value;
+            var price = document.f1["price"].value;
+            
+            // Проверяем корректность введенных данных
+            if (company && product && !isNaN(quantity) && !isNaN(price) && quantity > 0 && price > 0) {
+                // Вычисляем общую сумму
+                var total = quantity * price;
+                alert("Компания " + company + " заказала " + quantity + " единиц товара '" + product + "'. Общая сумма: " + total + " руб.");
+            } else {
+                alert("Ошибка: введите корректные данные для товара, количества и цены.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="f1">
+        <h1 align="left">Заказ товаров</h1>
+        Компания: <input type="text" name="fir-ma" size="30">
+        Товар: <input type="text" name="to-var" size="30">
+        в размере <input type="text" name="quantity" size="30">
+        по цене <input type="text" name="price" size="30">
+        <input type="button" name="b1" value="Click" onclick="calculateTotal()">
+    </form>
+</body>
+</html>
