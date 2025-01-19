@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSzad7", "OSzad7\OSzad7.csproj", "{FBE235A2-C354-452C-A017-6FC8547FF206}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE235A2-C354-452C-A017-6FC8547FF206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE235A2-C354-452C-A017-6FC8547FF206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE235A2-C354-452C-A017-6FC8547FF206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE235A2-C354-452C-A017-6FC8547FF206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
